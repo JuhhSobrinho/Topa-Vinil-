@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/vinil-icon.svg" />
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Topa Um Vinel ?</title>
+</head>
+
+<body>
+    <main>
+        <container class="card-audio">
+            <div class="img-playlist-vinil">
+                <img src="./images/cores.jpg" class="img-playlist" alt="Image-audio">
+            </div>
+            <audio id="audio" src="./playlist/Esteban - Carta aos Desinteressados.mp3"></audio>
+            <div class="titulos">
+                <lottie-player id="status-som"
+                    src="https://lottie.host/e13a7a4d-69ef-42b3-8c81-ee4809d20d32/2a0kQz0bWE.json"
+                    background="transparent" speed="1" style="width: 100%; height: 50px" loop direction="1"
+                    mode="normal">
+                </lottie-player>
+                <span class="titulo-audio" id="audio-titulo">Esteban - Carta aos Desinteressados</span>
+                <span class="titulo-audio">Preciso Me Encontrar</span>
+            
+            <section class="btn-estado-audio">
+                <button id="play-volta" class="bi bi-skip-start-fill"></button>
+                <button id="play" class="bi bi-play-circle-fill"></button>
+                <button id="play-vai" class="bi bi-skip-end-fill"></button>
+            </section>
+        </div>
+        </container>
+    </main>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>

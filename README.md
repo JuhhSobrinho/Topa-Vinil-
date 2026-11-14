@@ -8,7 +8,7 @@ Projeto desenvolvido por [Juliano Sobrinho](https://github.com/JuhhSobrinho).
 
 ## Tecnologias
 
-Arquivos principais do projeto: `.mp3`, `.svg`, `.js`, `.jpg`, `.html.
+Arquivos principais do projeto: `.mp3`, `.svg`, `.md`, `.js`, `.jpg`.
 
 ## Como executar
 

@@ -1,5 +1,7 @@
 # Topa-Vinil-
 
+![Tela do player Topa Vinil](docs/tela-principal.webp)
+
 Um player de música para web, com uma playlist de artistas brasileiros, pensado para quem quer um "vinil" para ouvir enquanto precisa se encontrar. A interface é simples: uma capa, o título da faixa atual e os controles de tocar/pausar, anterior e próxima.
 
 ## Funcionalidades
